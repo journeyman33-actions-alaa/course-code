@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu:latest
     steps:
       - name: echo a string
-        run: ehco "hello"
+        run: echo "hello"
       - name: Multiline Coammnd
         run: |
           node -v 
